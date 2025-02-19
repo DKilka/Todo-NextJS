@@ -56,6 +56,7 @@ const Home = () => {
         <Input
           error={!password.length}
           value={password}
+          type="password"
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
             setPassword(e.target.value)
           }
